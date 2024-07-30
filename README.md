@@ -14,7 +14,7 @@ A demo conference website built with the [Hugo Conference Theme](https://github.
 1. Open a shell of your choice.
 2. Clone this repository with submodules.
     ```shell
-    git clone --recurse-submodules https://github.com/medialesson/hugo-theme-conference-demo
+    git clone --recurse-submodules git@github.com:medialesson/hugo-theme-conference-demo.git
     ```
 3. Switch to the repository directory.
 4. Run Hugo in development mode:
