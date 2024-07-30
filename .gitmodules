@@ -1,0 +1,3 @@
+[submodule "themes/conference"] 
+  path = themes/conference 
+  url = git@github.com:medialesson/hugo-theme-conference.git
