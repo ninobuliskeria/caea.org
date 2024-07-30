@@ -50,11 +50,13 @@ jobs:
         # Based on https://github.com/actions/checkout/issues/116#issuecomment-1192418222.
         run: |
           mkdir -p $HOME/.ssh
-          echo '${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}' > $HOME/.ssh/ssh.key
+          echo '${{ SUBMODULE_REPO_DEPLOY_KEY }}' > $HOME/.ssh/ssh.key
           chmod 600 $HOME/.ssh/ssh.key
           export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/ssh.key"
           git submodule update --init --recursive
           unset GIT_SSH_COMMAND
+        env:
+          SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
