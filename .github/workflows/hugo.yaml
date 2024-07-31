@@ -52,10 +52,8 @@ jobs:
           SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
         run: |
           mkdir -p $HOME/.ssh
-          echo $SUBMODULE_REPO_DEPLOY_KEY | base64 --decode > $HOME/.ssh/ssh.key
+          echo $SUBMODULE_REPO_DEPLOY_KEY > $HOME/.ssh/ssh.key
           chmod 600 $HOME/.ssh/ssh.key
-          echo Line count: `wc -l $HOME/.ssh/ssh.key`
-          echo Variable char count: `echo $SUBMODULE_REPO_DEPLOY_KEY | wc -c`
           export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/ssh.key"
           git submodule update --init --recursive
           unset GIT_SSH_COMMAND
