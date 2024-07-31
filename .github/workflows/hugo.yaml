@@ -50,9 +50,8 @@ jobs:
         # Based on https://github.com/actions/checkout/issues/116#issuecomment-1192418222.
         run: |
           mkdir -p $HOME/.ssh
-          echo $SUBMODULE_REPO_DEPLOY_KEY > $HOME/.ssh/ssh.key
+          echo $SUBMODULE_REPO_DEPLOY_KEY | tr -d '\r' > $HOME/.ssh/ssh.key
           chmod 600 $HOME/.ssh/ssh.key
-          tail -c 10 $HOME/.ssh/ssh.key >> $GITHUB_OUTPUT
           export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/ssh.key"
           git submodule update --init --recursive
           unset GIT_SSH_COMMAND
