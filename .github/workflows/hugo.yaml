@@ -50,6 +50,8 @@ jobs:
           mkdir -p $HOME/.ssh
           echo $SUBMODULE_REPO_DEPLOY_KEY | base64 --decode > $HOME/.ssh/ssh.key
           chmod 600 $HOME/.ssh/ssh.key
+          echo Line count: `wc -l $HOME/.ssh/ssh.key`
+          echo Variable char count: `echo $SUBMODULE_REPO_DEPLOY_KEY | wc -c`
         env:
           SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
       - name: Log content end of key
