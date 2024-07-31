@@ -1,15 +1,6 @@
-baseURL: https://example.org/
 title: Lukas' Conference 2025
 theme: conference
 defaultContentLanguage: de
-sectionPagesMenu: main
-languages:
-  de:
-    languageName: Deutsch
-    disabled: false
-  en:
-    languageName: English
-    disabled: false
 params:
   themes:
     conference:
