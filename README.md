@@ -14,10 +14,11 @@ See it in action on https://medialesson.github.io/hugo-theme-conference-demo.
 ### Installation
 
 1. Open a shell of your choice.
-2. Clone this repository with submodules.
+2. Clone this repository with SSH and submodules.
     ```shell
     git clone --recurse-submodules git@github.com:medialesson/hugo-theme-conference-demo.git
     ```
+    **WARNING**: As the submodule requires authentication, you must clone the repository with SSH.
 3. Switch to the repository directory.
 4. Run Hugo in development mode:
     ```shell
