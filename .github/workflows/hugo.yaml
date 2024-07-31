@@ -45,18 +45,23 @@ jobs:
       #     fetch-depth: 0
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Create SSH key
+        run: |
+          mkdir -p $HOME/.ssh
+          echo $SUBMODULE_REPO_DEPLOY_KEY | base64 --decode > $HOME/.ssh/ssh.key
+          chmod 600 $HOME/.ssh/ssh.key
+        env:
+          SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
+      - name: Log content end of key
+        run: |
+          tail -c 20 $HOME/.ssh/ssh.key >> $GITHUB_OUTPUT
       - name: Clone Submodule
         # Access private submodule via SSH.
         # Based on https://github.com/actions/checkout/issues/116#issuecomment-1192418222.
         run: |
-          mkdir -p $HOME/.ssh
-          echo $SUBMODULE_REPO_DEPLOY_KEY | tr -d '\r' > $HOME/.ssh/ssh.key
-          chmod 600 $HOME/.ssh/ssh.key
           export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/ssh.key"
           git submodule update --init --recursive
           unset GIT_SSH_COMMAND
-        env:
-          SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
