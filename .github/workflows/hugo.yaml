@@ -44,7 +44,7 @@ jobs:
       #     submodules: recursive
       #     fetch-depth: 0
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Clone Submodule
         # Access private submodule via SSH.
         # Based on https://github.com/actions/checkout/issues/116#issuecomment-1192418222.
