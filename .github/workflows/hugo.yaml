@@ -54,7 +54,10 @@ jobs:
           SUBMODULE_REPO_DEPLOY_KEY: ${{ secrets.SUBMODULE_REPO_DEPLOY_KEY }}
       - name: Log content end of key
         run: |
+          echo "::group::Key end"
+          echo key end
           echo `tail -c 20 $HOME/.ssh/ssh.key`
+          echo "::endgroup::"
       - name: Clone Submodule
         # Access private submodule via SSH.
         # Based on https://github.com/actions/checkout/issues/116#issuecomment-1192418222.
