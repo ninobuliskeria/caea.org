@@ -2,6 +2,8 @@
 
 A demo conference website built with the [Hugo Conference Theme](https://github.com/medialesson/hugo-theme-conference).
 
+See it in action on https://medialesson.github.io/hugo-theme-conference-demo.
+
 ## Getting started
 
 ### Prerequisites
