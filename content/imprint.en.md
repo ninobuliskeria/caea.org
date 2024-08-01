@@ -1,7 +1,4 @@
----
-title: Imprint
-menu: footer
----
+# Imprint
 
 __+++ THIS IS JUST A SAMPLE +++__
 

@@ -1,7 +1,4 @@
----
-title: Datenschutz
-menu: footer
----
+# Datenschutz
 
 __+++ DIESE SEITE IST NUR EIN MUSTER +++__
 

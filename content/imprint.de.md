@@ -1,7 +1,4 @@
----
-title: Impressum
-menu: footer
----
+# Impressum
 
 __+++ DIESE SEITE IST NUR EIN MUSTER +++__
 

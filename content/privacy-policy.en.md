@@ -1,7 +1,4 @@
----
-title: Privacy Policy
-menu: footer
----
+# Privacy Policy
 
 __+++ THIS IS JUST A SAMPLE +++__
 
