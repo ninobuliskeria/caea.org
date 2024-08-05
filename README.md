@@ -1,8 +1,8 @@
-# Hugo Conference Theme Demo
+# Hugo Event Theme Demo
 
-A demo conference website built with the [Hugo Conference Theme](https://github.com/medialesson/hugo-theme-conference).
+A demo event website built with the [Hugo Event Theme](https://github.com/medialesson/hugo-theme-event).
 
-See it in action on https://medialesson.github.io/hugo-theme-conference-demo.
+See it in action on https://medialesson.github.io/hugo-theme-event-demo.
 
 ## Getting started
 
@@ -16,7 +16,7 @@ See it in action on https://medialesson.github.io/hugo-theme-conference-demo.
 1. Open a shell of your choice.
 2. Clone this repository with SSH and submodules.
     ```shell
-    git clone --recurse-submodules git@github.com:medialesson/hugo-theme-conference-demo.git
+    git clone --recurse-submodules git@github.com:medialesson/hugo-theme-event-demo.git
     ```
     **WARNING**: As the submodule requires authentication, you must clone the repository with SSH.
 3. Switch to the repository directory.
@@ -24,4 +24,4 @@ See it in action on https://medialesson.github.io/hugo-theme-conference-demo.
     ```shell
     hugo server
     ```
-5. View the demo conference website on http://localhost:1313/.
+5. View the demo event website on http://localhost:1313/.

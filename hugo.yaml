@@ -1,4 +1,4 @@
-theme: conference
+theme: event
 
 defaultContentLanguage: de
 languages:
@@ -46,6 +46,6 @@ menus:
 
 params:
   themes:
-    conference:
+    event:
       sessionizeId: 67poir7q
-      conferenceName: Lukas' Conference 2025
+      eventName: Lukas' Conference 2025
