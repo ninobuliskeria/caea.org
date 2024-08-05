@@ -1,12 +1,12 @@
 # Imprint
 
-__+++ THIS IS JUST A SAMPLE +++__
+**+++ THIS IS JUST A SAMPLE +++**
 
 Disclosures according to § 5 TMG
 
 Max Muster  
 Musterweg  
-12345 Musterstadt  
+12345 Musterstadt
 
 Editorially responsible
 
