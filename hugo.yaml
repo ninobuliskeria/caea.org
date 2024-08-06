@@ -64,3 +64,7 @@ params:
       callToAction:
         eventbrite:
           eventId: 976108886957
+      socialLinks:
+        xUrl: https://x.com/medialesson
+        facebookUrl: https://www.facebook.com/medialesson/
+        linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
