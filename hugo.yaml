@@ -48,8 +48,7 @@ params:
   themes:
     event:
       sessionizeId: 67poir7q
-      title: medicon 25
-      slogan: Now is the Future of the Past
+      title: medicon
       startDate: 2025-01-30
       endDate: 2025-01-31
       location: Pforzheim, Germany
@@ -68,3 +67,8 @@ params:
         xUrl: https://x.com/medialesson
         facebookUrl: https://www.facebook.com/medialesson/
         linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
+      images:
+        eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
+      colors:
+        primary: lightgreen
+        primaryDarker: forestgreen
