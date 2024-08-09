@@ -21,6 +21,19 @@ languages:
         - identifier: privacy
           pageRef: /privacy-policy
           weight: 20
+    params:
+      themes:
+        event:
+          slogan: Not a real conference - this is just a demo!
+          description: |
+            This is a demo website to showcase the features of the __Event__ theme
+            for the static website generator [Hugo](https://gohugo.io). You can
+            find the source code of this website on
+            [GitHub](https://github.com/medialesson/hugo-theme-event-demo). The theme
+            can fetch data of any event from [Sessionize](https://sessionize.com) and
+            automatically generates a schedule, a speaker list, and more. It also 
+            integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
+
   de:
     menus:
       main:
@@ -40,12 +53,26 @@ languages:
         - identifier: privacy
           pageRef: /privacy-policy
           weight: 20
-
+    params:
+      themes:
+        event:
+          slogan: Keine echte Konferenz - nur eine Demo!
+          description: |
+            Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
+            für den statischen Website-Generator [Hugo](https://gohugo.io)
+            vorzustellen. Der Quellcode dieser Website steht auf
+            [GitHub](https://github.com/medialesson/hugo-theme-event-demo)
+            bereit. Das Thema kann Daten einer beliebigen Veranstaltung von
+            [Sessionize](https://sessionize.com) abrufen und generiert
+            automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
+            zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
+            um Tickets zu verkaufen.
 params:
   themes:
     event:
       sessionizeId: 67poir7q
       title: medicon
+      logo: logos/medicon-512.jpg
       startDate: 2025-01-30
       endDate: 2025-01-31
       location: Pforzheim, Germany
@@ -67,5 +94,5 @@ params:
       images:
         eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
       colors:
-        primary: lightgreen
-        primaryDarker: forestgreen
+        primary: "#0d81be"
+        primaryDarker: "#143e8b"
