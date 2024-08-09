@@ -3,6 +3,7 @@ theme: event
 defaultContentLanguage: de
 languages:
   en:
+    languageName: English
     menus:
       main:
         - identifier: sessions
@@ -35,6 +36,7 @@ languages:
             integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
 
   de:
+    languageName: Deutsch
     menus:
       main:
         - identifier: sessions
