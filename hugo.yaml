@@ -2,8 +2,8 @@ theme: event
 
 defaultContentLanguage: de
 languages:
+  _merge: deep
   en:
-    languageName: English
     menus:
       main:
         - identifier: sessions
@@ -23,6 +23,10 @@ languages:
           pageRef: /privacy-policy
           weight: 20
     params:
+      # Open Graph / X (Twitter) Cards
+      description: |
+        A demo website to showcase the features of the "Event" theme for the
+        static website generator HUGO.
       themes:
         event:
           slogan: Not a real conference - this is just a demo!
@@ -36,7 +40,6 @@ languages:
             integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
 
   de:
-    languageName: Deutsch
     menus:
       main:
         - identifier: sessions
@@ -56,6 +59,10 @@ languages:
           pageRef: /privacy-policy
           weight: 20
     params:
+      # Open Graph / X (Twitter) Cards
+      description: |
+        Eine Demo-Website die das Thema "Event" für den statischen
+        Website-Generator HUGO vorstellt.
       themes:
         event:
           slogan: Keine echte Konferenz - nur eine Demo!
@@ -70,6 +77,9 @@ languages:
             zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
             um Tickets zu verkaufen.
 params:
+  # Open Graph / X (Twitter) Cards
+  images:
+    - logos/medicon-512.jpg
   themes:
     event:
       sessionizeId: 67poir7q
