@@ -113,5 +113,7 @@ params:
       images:
         eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
       colors:
+        primaryLighter: "#5CB1E8"
         primary: "#0d81be"
         primaryDarker: "#143e8b"
+        track: "#15B8CA"
