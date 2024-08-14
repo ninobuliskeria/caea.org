@@ -119,6 +119,12 @@ params:
       images:
         eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
         locationImage:
+      directions: |
+        **Directions for getting to the location:**
+
+        Use the following information to navigate to the event:
+        - Public Transportation: Take the number 25 bus from downtown. [Click here for the bus schedule](https://www.kvv.de/en/plan-trip/timetables.html).
+        - Car: From Downtown: Take Main Street north for 2 miles and turn right on Elm Street. [Get directions](https://www.kvv.de/en/plan-trip/timetables.html).
       colors:
         primaryLighter: "#5CB1E8"
         primary: "#0d81be"
