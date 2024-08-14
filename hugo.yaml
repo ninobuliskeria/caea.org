@@ -12,6 +12,9 @@ languages:
         - identifier: speakers
           pageRef: /speakers
           weight: 20
+        - identifier: location
+          pageRef: /location
+          weight: 30
         - identifier: sponsors
           pageRef: /sponsors
           weight: 30
@@ -52,12 +55,15 @@ languages:
         - identifier: speakers
           pageRef: /speakers
           weight: 20
+        - identifier: location
+          pageRef: /location
+          weight: 30
         - identifier: sponsors
           pageRef: /sponsors
-          weight: 30
+          weight: 40
         - identifier: code_of_conduct
           pageRef: /code-of-conduct
-          weight: 40
+          weight: 50
       footer:
         - identifier: imprint
           pageRef: /imprint
