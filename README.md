@@ -20,8 +20,12 @@ See it in action on https://medialesson.github.io/hugo-theme-event-demo.
    ```
    **WARNING**: As the submodule requires authentication, you must clone the repository with SSH.
 3. Switch to the repository directory.
-4. Run Hugo in development mode:
+4. Run npm install to install the required dependencies.
+   ```shell
+   npm install
+   ```
+5. Run Hugo in development mode:
    ```shell
    hugo server
    ```
-5. View the demo event website on http://localhost:1313/.
+6. View the demo event website on http://localhost:1313/.
