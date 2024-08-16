@@ -6,21 +6,24 @@ languages:
   en:
     menus:
       main:
+        - identifier: about
+          pageRef: /about
+          weight: 10
         - identifier: sessions
           pageRef: /sessions
-          weight: 10
+          weight: 20
         - identifier: speakers
           pageRef: /speakers
-          weight: 20
+          weight: 30
         - identifier: location
           pageRef: /location
-          weight: 30
+          weight: 40
         - identifier: sponsors
           pageRef: /sponsors
-          weight: 30
+          weight: 50
         - identifier: code_of_conduct
           pageRef: /code-of-conduct
-          weight: 40
+          weight: 60
       footer:
         - identifier: imprint
           pageRef: /imprint
@@ -49,21 +52,24 @@ languages:
   de:
     menus:
       main:
+        - identifier: about
+          pageRef: /about
+          weight: 10
         - identifier: sessions
           pageRef: /sessions
-          weight: 10
+          weight: 20
         - identifier: speakers
           pageRef: /speakers
-          weight: 20
+          weight: 30
         - identifier: location
           pageRef: /location
-          weight: 30
+          weight: 40
         - identifier: sponsors
           pageRef: /sponsors
-          weight: 40
+          weight: 50
         - identifier: code_of_conduct
           pageRef: /code-of-conduct
-          weight: 50
+          weight: 60
       footer:
         - identifier: imprint
           pageRef: /imprint
@@ -125,6 +131,21 @@ params:
         Use the following information to navigate to the event:
         - Public Transportation: Take the number 25 bus from downtown. [Click here for the bus schedule](https://www.kvv.de/en/plan-trip/timetables.html).
         - Car: From Downtown: Take Main Street north for 2 miles and turn right on Elm Street. [Get directions](https://www.kvv.de/en/plan-trip/timetables.html).
+      aboutUs: |
+        **Mission:**
+
+        We help companies and organizations to digital transform their business, products and processes through consulting,
+        strategy, design, software development and training using cutting edge technology.
+        
+        **Established:**
+        - **2002** - Founded
+
+        **Our Team:**
+        - **25+** Employees
+        - **5** Nationalities
+
+        **Additional Info:**
+        - We bring together diverse expertise and innovation.
       colors:
         primaryLighter: "#5CB1E8"
         primary: "#0d81be"
