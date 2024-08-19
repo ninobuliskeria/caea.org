@@ -48,6 +48,27 @@ languages:
             can fetch data of any event from [Sessionize](https://sessionize.com) and
             automatically generates a schedule, a speaker list, and more. It also 
             integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
+          directions: |
+            **Directions for getting to the location:**
+
+            Use the following information to navigate to the event:
+              - Public Transportation: Take the number 25 bus from downtown. [Click here for the bus schedule](https://www.kvv.de/en/plan-trip/timetables.html).
+              - Car: From Downtown: Take Main Street north for 2 miles and turn right on Elm Street. [Get directions](https://www.kvv.de/en/plan-trip/timetables.html).
+          aboutUs: |
+            **Mission:**
+
+            We help companies and organizations to digital transform their business, products and processes through consulting,
+            strategy, design, software development and training using cutting edge technology.
+        
+            **Established:**
+            - **2002** - Founded
+
+            - **Our Team:**
+            - **25+** Employees
+            - **5** Nationalities
+
+            **Additional Info:**
+            - We bring together diverse expertise and innovation.
 
   de:
     menus:
@@ -96,6 +117,27 @@ languages:
             automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
             zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
             um Tickets zu verkaufen.
+          directions: |
+            **Wegbeschreibung zum Veranstaltungsort:**
+            Nutzen Sie die folgenden Informationen, um zur Veranstaltung zu gelangen:
+
+            - **Öffentliche Verkehrsmittel:** Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
+            - **Auto:** Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main Street und biegen Sie dann rechts in die Elm Street ab. [Wegbeschreibung abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
+
+          aboutUs: |
+            **Mission:**
+            Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
+  
+            **Gründung:**
+            - **2002** - Gegründet
+  
+            **Unser Team:**
+            - **25+** Mitarbeiter
+            - **5** Nationalitäten
+  
+            **Zusätzliche Informationen:**
+            - Wir vereinen vielfältige Expertise und Innovation.
+
 params:
   # Open Graph / X (Twitter) Cards
   images:
@@ -125,27 +167,6 @@ params:
       images:
         eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
         locationImage:
-      directions: |
-        **Directions for getting to the location:**
-
-        Use the following information to navigate to the event:
-        - Public Transportation: Take the number 25 bus from downtown. [Click here for the bus schedule](https://www.kvv.de/en/plan-trip/timetables.html).
-        - Car: From Downtown: Take Main Street north for 2 miles and turn right on Elm Street. [Get directions](https://www.kvv.de/en/plan-trip/timetables.html).
-      aboutUs: |
-        **Mission:**
-
-        We help companies and organizations to digital transform their business, products and processes through consulting,
-        strategy, design, software development and training using cutting edge technology.
-        
-        **Established:**
-        - **2002** - Founded
-
-        **Our Team:**
-        - **25+** Employees
-        - **5** Nationalities
-
-        **Additional Info:**
-        - We bring together diverse expertise and innovation.
       colors:
         primaryLighter: "#5CB1E8"
         primary: "#0d81be"
