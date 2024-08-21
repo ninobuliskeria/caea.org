@@ -49,25 +49,27 @@ languages:
             automatically generates a schedule, a speaker list, and more. It also 
             integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
           directions: |
-            **Directions for getting to the location:**
+            #### By Public Transportation
+            Take the number 25 bus from downtown. [Click here for the bus
+            schedule](https://www.kvv.de/en/plan-trip/timetables.html).
 
-            Use the following information to navigate to the event:
-              - Public Transportation: Take the number 25 bus from downtown. [Click here for the bus schedule](https://www.kvv.de/en/plan-trip/timetables.html).
-              - Car: From Downtown: Take Main Street north for 2 miles and turn right on Elm Street. [Get directions](https://www.kvv.de/en/plan-trip/timetables.html).
+            #### By Car:
+            From Downtown: Take Main Street north for 2 miles and turn right on
+            Elm Street. [Get
+            directions](https://www.kvv.de/en/plan-trip/timetables.html).
           aboutUs: |
-            **Mission:**
-
+            ### Mission
             We help companies and organizations to digital transform their business, products and processes through consulting,
             strategy, design, software development and training using cutting edge technology.
-        
-            **Established:**
+
+            ### Established
             - **2002** - Founded
 
-            - **Our Team:**
+            ### Our Team
             - **25+** Employees
             - **5** Nationalities
 
-            **Additional Info:**
+            ### Additional Info
             - We bring together diverse expertise and innovation.
 
   de:
@@ -118,24 +120,28 @@ languages:
             zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
             um Tickets zu verkaufen.
           directions: |
-            **Wegbeschreibung zum Veranstaltungsort:**
-            Nutzen Sie die folgenden Informationen, um zur Veranstaltung zu gelangen:
+            #### Mit den Öffentlichen:
+            Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den
+            Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
 
-            - **Öffentliche Verkehrsmittel:** Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
-            - **Auto:** Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main Street und biegen Sie dann rechts in die Elm Street ab. [Wegbeschreibung abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
+            #### Mit dem Auto:
+            Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main
+            Street und biegen Sie dann rechts in die Elm Street ab.
+            [Wegbeschreibung
+            abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
 
           aboutUs: |
-            **Mission:**
+            ### Mission
             Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
-  
-            **Gründung:**
+
+            ### Gründung
             - **2002** - Gegründet
-  
-            **Unser Team:**
+
+            ### Unser Team
             - **25+** Mitarbeiter
             - **5** Nationalitäten
-  
-            **Zusätzliche Informationen:**
+
+            ### Zusätzliche Informationen
             - Wir vereinen vielfältige Expertise und Innovation.
 
 params:
@@ -150,10 +156,10 @@ params:
       startDate: 2025-01-30
       endDate: 2025-01-31
       address:
-        row1: Medialesson GmbH
-        row2: Habermehlstraße 15
-        row3: 75172 Pforzheim
-        row4: Germany
+        - Medialesson GmbH
+        - Habermehlstraße 15
+        - 75172 Pforzheim
+        - Germany
       map:
         embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=8.686567246913912%2C48.890538058689074%2C8.689249455928804%2C48.89185188734934&amp;layer=mapnik&amp;marker=48.89119497733476%2C8.687908351421356
         viewLargerMapUrl: https://www.openstreetmap.org/?mlat=48.89119&amp;mlon=8.68791#map=19/48.89119/8.68791
