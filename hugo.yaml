@@ -2,179 +2,179 @@ theme: event
 
 defaultContentLanguage: de
 languages:
-  _merge: deep
-  en:
-    menus:
-      main:
-        - identifier: about
-          pageRef: /about
-          weight: 10
-        - identifier: sessions
-          pageRef: /sessions
-          weight: 20
-        - identifier: speakers
-          pageRef: /speakers
-          weight: 30
-        - identifier: location
-          pageRef: /location
-          weight: 40
-        - identifier: sponsors
-          pageRef: /sponsors
-          weight: 50
-        - identifier: code_of_conduct
-          pageRef: /code-of-conduct
-          weight: 60
-      footer:
-        - identifier: imprint
-          pageRef: /imprint
-          weight: 10
-        - identifier: privacy
-          pageRef: /privacy-policy
-          weight: 20
-    params:
-      # Open Graph / X (Twitter) Cards
-      description: |
-        A demo website to showcase the features of the "Event" theme for the
-        static website generator HUGO.
-      themes:
-        event:
-          slogan: Not a real conference - this is just a demo!
-          location: Pforzheim, Germany
-          description: |
-            This is a demo website to showcase the features of the __Event__ theme
-            for the static website generator [Hugo](https://gohugo.io). You can
-            find the source code of this website on
-            [GitHub](https://github.com/medialesson/hugo-theme-event-demo). The theme
-            can fetch data of any event from [Sessionize](https://sessionize.com) and
-            automatically generates a schedule, a speaker list, and more. It also 
-            integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
-          directions: |
-            #### By Public Transportation
-            Take the number 25 bus from downtown. [Click here for the bus
-            schedule](https://www.kvv.de/en/plan-trip/timetables.html).
+    _merge: deep
+    en:
+        menus:
+            main:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                - identifier: sponsors
+                  pageRef: /sponsors
+                  weight: 50
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+            footer:
+                - identifier: imprint
+                  pageRef: /imprint
+                  weight: 10
+                - identifier: privacy
+                  pageRef: /privacy-policy
+                  weight: 20
+        params:
+            # Open Graph / X (Twitter) Cards
+            description: |
+                A demo website to showcase the features of the "Event" theme for the
+                static website generator HUGO.
+            themes:
+                event:
+                    slogan: Not a real conference - this is just a demo!
+                    location: Pforzheim, Germany
+                    description: |
+                        This is a demo website to showcase the features of the __Event__ theme
+                        for the static website generator [Hugo](https://gohugo.io). You can
+                        find the source code of this website on
+                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo). The theme
+                        can fetch data of any event from [Sessionize](https://sessionize.com) and
+                        automatically generates a schedule, a speaker list, and more. It also 
+                        integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
+                    directions: |
+                        #### By Public Transportation
+                        Take the number 25 bus from downtown. [Click here for the bus
+                        schedule](https://www.kvv.de/en/plan-trip/timetables.html).
 
-            #### By Car:
-            From Downtown: Take Main Street north for 2 miles and turn right on
-            Elm Street. [Get
-            directions](https://www.kvv.de/en/plan-trip/timetables.html).
-          aboutUs: |
-            ### Mission
-            We help companies and organizations to digital transform their business, products and processes through consulting,
-            strategy, design, software development and training using cutting edge technology.
+                        #### By Car:
+                        From Downtown: Take Main Street north for 2 miles and turn right on
+                        Elm Street. [Get
+                        directions](https://www.kvv.de/en/plan-trip/timetables.html).
+                    aboutUs: |
+                        ### Mission
+                        We help companies and organizations to digital transform their business, products and processes through consulting,
+                        strategy, design, software development and training using cutting edge technology.
 
-            ### Established
-            - **2002** - Founded
+                        ### Established
+                        - **2002** - Founded
 
-            ### Our Team
-            - **25+** Employees
-            - **5** Nationalities
+                        ### Our Team
+                        - **25+** Employees
+                        - **5** Nationalities
 
-            ### Additional Info
-            - We bring together diverse expertise and innovation.
+                        ### Additional Info
+                        - We bring together diverse expertise and innovation.
 
-  de:
-    menus:
-      main:
-        - identifier: about
-          pageRef: /about
-          weight: 10
-        - identifier: sessions
-          pageRef: /sessions
-          weight: 20
-        - identifier: speakers
-          pageRef: /speakers
-          weight: 30
-        - identifier: location
-          pageRef: /location
-          weight: 40
-        - identifier: sponsors
-          pageRef: /sponsors
-          weight: 50
-        - identifier: code_of_conduct
-          pageRef: /code-of-conduct
-          weight: 60
-      footer:
-        - identifier: imprint
-          pageRef: /imprint
-          weight: 10
-        - identifier: privacy
-          pageRef: /privacy-policy
-          weight: 20
-    params:
-      # Open Graph / X (Twitter) Cards
-      description: |
-        Eine Demo-Website die das Thema "Event" für den statischen
-        Website-Generator HUGO vorstellt.
-      themes:
-        event:
-          slogan: Keine echte Konferenz - nur eine Demo!
-          location: Pforzheim
-          description: |
-            Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
-            für den statischen Website-Generator [Hugo](https://gohugo.io)
-            vorzustellen. Der Quellcode dieser Website steht auf
-            [GitHub](https://github.com/medialesson/hugo-theme-event-demo)
-            bereit. Das Thema kann Daten einer beliebigen Veranstaltung von
-            [Sessionize](https://sessionize.com) abrufen und generiert
-            automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
-            zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
-            um Tickets zu verkaufen.
-          directions: |
-            #### Mit den Öffentlichen:
-            Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den
-            Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
+    de:
+        menus:
+            main:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                - identifier: sponsors
+                  pageRef: /sponsors
+                  weight: 50
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+            footer:
+                - identifier: imprint
+                  pageRef: /imprint
+                  weight: 10
+                - identifier: privacy
+                  pageRef: /privacy-policy
+                  weight: 20
+        params:
+            # Open Graph / X (Twitter) Cards
+            description: |
+                Eine Demo-Website die das Thema "Event" für den statischen
+                Website-Generator HUGO vorstellt.
+            themes:
+                event:
+                    slogan: Keine echte Konferenz - nur eine Demo!
+                    location: Pforzheim
+                    description: |
+                        Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
+                        für den statischen Website-Generator [Hugo](https://gohugo.io)
+                        vorzustellen. Der Quellcode dieser Website steht auf
+                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo)
+                        bereit. Das Thema kann Daten einer beliebigen Veranstaltung von
+                        [Sessionize](https://sessionize.com) abrufen und generiert
+                        automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
+                        zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
+                        um Tickets zu verkaufen.
+                    directions: |
+                        #### Mit den Öffentlichen:
+                        Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den
+                        Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
 
-            #### Mit dem Auto:
-            Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main
-            Street und biegen Sie dann rechts in die Elm Street ab.
-            [Wegbeschreibung
-            abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
+                        #### Mit dem Auto:
+                        Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main
+                        Street und biegen Sie dann rechts in die Elm Street ab.
+                        [Wegbeschreibung
+                        abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
 
-          aboutUs: |
-            ### Mission
-            Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
+                    aboutUs: |
+                        ### Mission
+                        Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
 
-            ### Gründung
-            - **2002** - Gegründet
+                        ### Gründung
+                        - **2002** - Gegründet
 
-            ### Unser Team
-            - **25+** Mitarbeiter
-            - **5** Nationalitäten
+                        ### Unser Team
+                        - **25+** Mitarbeiter
+                        - **5** Nationalitäten
 
-            ### Zusätzliche Informationen
-            - Wir vereinen vielfältige Expertise und Innovation.
+                        ### Zusätzliche Informationen
+                        - Wir vereinen vielfältige Expertise und Innovation.
 
 params:
-  # Open Graph / X (Twitter) Cards
-  images:
-    - logos/medicon-512.jpg
-  themes:
-    event:
-      sessionizeId: 67poir7q
-      title: medicon
-      logo: logos/medicon-512.jpg
-      startDate: 2025-01-30
-      endDate: 2025-01-31
-      address:
-        - Medialesson GmbH
-        - Habermehlstraße 15
-        - 75172 Pforzheim
-        - Germany
-      map:
-        embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=8.686567246913912%2C48.890538058689074%2C8.689249455928804%2C48.89185188734934&amp;layer=mapnik&amp;marker=48.89119497733476%2C8.687908351421356
-        viewLargerMapUrl: https://www.openstreetmap.org/?mlat=48.89119&amp;mlon=8.68791#map=19/48.89119/8.68791
-      callToAction:
-        eventbrite:
-          eventId: 976108886957
-      socialLinks:
-        xUrl: https://x.com/medialesson
-        facebookUrl: https://www.facebook.com/medialesson/
-        linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
-      images:
-        eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
-        locationImage:
-      colors:
-        primaryLighter: "#5CB1E8"
-        primary: "#0d81be"
-        primaryDarker: "#143e8b"
-        track: "#15B8CA"
+    # Open Graph / X (Twitter) Cards
+    images:
+        - logos/medicon-512.jpg
+    themes:
+        event:
+            sessionizeId: 67poir7q
+            title: medicon
+            logo: logos/medicon-512.jpg
+            startDate: 2025-01-30
+            endDate: 2025-01-31
+            address:
+                - Medialesson GmbH
+                - Habermehlstraße 15
+                - 75172 Pforzheim
+                - Germany
+            map:
+                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=8.686567246913912%2C48.890538058689074%2C8.689249455928804%2C48.89185188734934&amp;layer=mapnik&amp;marker=48.89119497733476%2C8.687908351421356
+                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=48.89119&amp;mlon=8.68791#map=19/48.89119/8.68791
+            callToAction:
+                eventbrite:
+                    eventId: 976108886957
+            socialLinks:
+                xUrl: https://x.com/medialesson
+                facebookUrl: https://www.facebook.com/medialesson/
+                linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
+            images:
+                eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
+                locationImage:
+            colors:
+                primaryLighter: '#5CB1E8'
+                primary: '#0d81be'
+                primaryDarker: '#143e8b'
+                track: '#15B8CA'
