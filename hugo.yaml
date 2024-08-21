@@ -172,7 +172,7 @@ params:
                 linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
                 eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
-                locationImage:
+                locationImage: images/habermehlstr.jpg
             colors:
                 primaryLighter: '#5CB1E8'
                 primary: '#0d81be'
