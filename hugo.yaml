@@ -152,7 +152,6 @@ params:
         event:
             sessionizeId: 67poir7q
             title: medicon
-            logo: logos/medicon-512.jpg
             startDate: 2025-01-30
             endDate: 2025-01-31
             address:
@@ -172,8 +171,9 @@ params:
                 facebookUrl: https://www.facebook.com/medialesson/
                 linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
-                eventTitleBackground: images/pexels-caleboquendo-3023317.jpg
-                locationImage: images/habermehlstr.jpg
+                logo: logos/medicon-512.jpg
+                titleBackground: images/pexels-caleboquendo-3023317.jpg
+                location: images/habermehlstr.jpg
             sponsors:
                 - logo: logos/medialesson-logo.svg
                   url: https://www.media-lesson.com/
@@ -183,10 +183,10 @@ params:
                   url: https://www.media-lesson.com/
                   name: 'Medialesson GmbH'
             organizers:
-              - "00000000-0000-0000-0000-000000000000"
-              - "00000000-0000-0000-0000-000000000001"
-              - "00000000-0000-0000-0000-000000000004"
-              - "00000000-0000-0000-0000-000000000002"
+                - '00000000-0000-0000-0000-000000000000'
+                - '00000000-0000-0000-0000-000000000001'
+                - '00000000-0000-0000-0000-000000000004'
+                - '00000000-0000-0000-0000-000000000002'
             colors:
                 primaryLighter: '#5CB1E8'
                 primary: '#0d81be'
