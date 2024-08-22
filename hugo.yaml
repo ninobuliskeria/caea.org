@@ -161,8 +161,9 @@ params:
                 - 75172 Pforzheim
                 - Germany
             map:
-                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=8.686567246913912%2C48.890538058689074%2C8.689249455928804%2C48.89185188734934&amp;layer=mapnik&amp;marker=48.89119497733476%2C8.687908351421356
-                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=48.89119&amp;mlon=8.68791#map=19/48.89119/8.68791
+                embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
+                viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
+                # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
             callToAction:
                 eventbrite:
                     eventId: 976108886957
