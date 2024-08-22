@@ -182,6 +182,11 @@ params:
                 - logo: logos/medialesson-logo.svg
                   url: https://www.media-lesson.com/
                   name: 'Medialesson GmbH'
+            organizers:
+              - "00000000-0000-0000-0000-000000000000"
+              - "00000000-0000-0000-0000-000000000001"
+              - "00000000-0000-0000-0000-000000000004"
+              - "00000000-0000-0000-0000-000000000002"
             colors:
                 primaryLighter: '#5CB1E8'
                 primary: '#0d81be'
