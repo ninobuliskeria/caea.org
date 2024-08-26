@@ -4,6 +4,7 @@ defaultContentLanguage: de
 languages:
     _merge: deep
     en:
+        disabled: false
         menus:
             main:
                 - identifier: about
@@ -73,6 +74,7 @@ languages:
                         - We bring together diverse expertise and innovation.
 
     de:
+        disabled: false
         menus:
             main:
                 - identifier: about
