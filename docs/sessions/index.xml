@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sessions on </title>
-    <link>/sessions/</link>
+    <link>https://ninobuliskeria.github.io/caea.org/sessions/</link>
     <description>Recent content in Sessions on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ninobuliskeria.github.io/caea.org/sessions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jackson&#39;s Session</title>
-      <link>/sessions/jacksons-session-936588/</link>
+      <link>https://ninobuliskeria.github.io/caea.org/sessions/jacksons-session-936588/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/jacksons-session-936588/</guid>
+      <guid>https://ninobuliskeria.github.io/caea.org/sessions/jacksons-session-936588/</guid>
       <description>&lt;p&gt;Usually, you would find a session description here. But, this is not a real session submission, so let just say we&amp;rsquo;ll talk about Psychology, Shoe, Human resources. Ha!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lucas&#39;s Session</title>
-      <link>/sessions/lucass-session-936592/</link>
+      <link>https://ninobuliskeria.github.io/caea.org/sessions/lucass-session-936592/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/lucass-session-936592/</guid>
+      <guid>https://ninobuliskeria.github.io/caea.org/sessions/lucass-session-936592/</guid>
       <description>&lt;p&gt;Usually, you would find a session description here. But, this is not a real session submission, so let just say we&amp;rsquo;ll talk about Board games, Illustration, Human resources. Ha!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Olivia&#39;s Session</title>
-      <link>/sessions/olivias-session-936590/</link>
+      <link>https://ninobuliskeria.github.io/caea.org/sessions/olivias-session-936590/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/olivias-session-936590/</guid>
+      <guid>https://ninobuliskeria.github.io/caea.org/sessions/olivias-session-936590/</guid>
       <description>&lt;p&gt;Usually, you would find a session description here. But, this is not a real session submission, so let just say we&amp;rsquo;ll talk about Coffee, Illustration, Psychology. Ha!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sophia&#39;s Session</title>
-      <link>/sessions/sophias-session-936587/</link>
+      <link>https://ninobuliskeria.github.io/caea.org/sessions/sophias-session-936587/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/sophias-session-936587/</guid>
+      <guid>https://ninobuliskeria.github.io/caea.org/sessions/sophias-session-936587/</guid>
       <description>&lt;p&gt;Usually, you would find a session description here. But, this is not a real session submission, so let just say we&amp;rsquo;ll talk about Consumer, Shoe, Board games. Ha!&lt;/p&gt;</description>
     </item>
   </channel>
