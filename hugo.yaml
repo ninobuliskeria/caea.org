@@ -1,3 +1,4 @@
+baseURL: "https://ninobuliskeria.github.io/caea.org/"
 publishDir: "docs"
 theme: event
 
