@@ -1,6 +1,7 @@
+publishDir: "docs"
 theme: event
 
-defaultContentLanguage: de
+defaultContentLanguage: en
 languages:
     _merge: deep
     en:
@@ -12,7 +13,7 @@ languages:
                   weight: 10
                 - identifier: sessions
                   pageRef: /sessions
-                  weight: 20
+                  weight: 20 
                 - identifier: speakers
                   pageRef: /speakers
                   weight: 30
@@ -104,7 +105,7 @@ languages:
                         - We bring together diverse expertise and innovation.
 
     de:
-        disabled: false
+        disabled: true
         menus:
             main:
                 - identifier: about
@@ -210,13 +211,13 @@ languages:
 
 params:
     # Open Graph / X (Twitter) Cards
-    images:
-        - logos/medicon-512.jpg
+    #images:
+    #    - logos/medicon-512.jpg
     themes:
         event:
-            sessionizeId: 67poir7q
-            title: medicon
-            shortTitle:
+            sessionizeId: i66sipcq
+            title: The 1st CAEA Conference
+            shortTitle: CAEA
             startDate: 2026-01-30
             endDate: 2026-01-31
             address:
@@ -228,9 +229,9 @@ params:
                 embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
                 viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
                 # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
-            callToAction:
-                eventbrite:
-                    eventId: 976108886957
+            #callToAction:
+            #    eventbrite:
+            #        eventId: "976108886957"
             socialLinks:
                 xUrl: https://x.com/medialesson
                 facebookUrl: https://www.facebook.com/medialesson/
@@ -239,16 +240,16 @@ params:
                 logo: logos/medicon-512.webp
                 titleBackground: images/pexels-caleboquendo-3023317.webp
                 location: images/habermehlstr.webp
-            sponsors:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            partners:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
+            #sponsors:
+            #    - logo: logos/medialesson-logo.svg
+            #      url: https://www.media-lesson.com/
+            #      name: 'Medialesson GmbH'
+            #partners:
+            #    - logo: logos/medialesson-logo.svg
+            #      url: https://www.media-lesson.com/
+            #      name: 'Medialesson GmbH'
             organizers:
-                - '00000000-0000-0000-0000-000000000000'
+                - 'Nino Buliskeria'
                 - '00000000-0000-0000-0000-000000000001'
                 - '00000000-0000-0000-0000-000000000004'
                 - '00000000-0000-0000-0000-000000000002'
